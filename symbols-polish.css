@@ -1,0 +1,8 @@
+/* Recognisable app symbols instead of placeholder initials. */
+.app-icon,.tool-letter{font-size:0;position:relative}
+.app-icon:after,.tool-letter:after{font-size:1.15rem;font-weight:700;line-height:1;color:currentColor}
+.app-card:nth-child(1) .app-icon:after,.tool-row:nth-child(1) .tool-letter:after{content:'▤'}
+.app-card:nth-child(2) .app-icon:after,.tool-row:nth-child(2) .tool-letter:after{content:'▦'}
+.app-card:nth-child(3) .app-icon:after,.tool-row:nth-child(3) .tool-letter:after{content:'✉'}
+.app-card:nth-child(4) .app-icon:after,.tool-row:nth-child(4) .tool-letter:after{content:'♧'}
+.tool-letter:after{font-size:1.45rem}
